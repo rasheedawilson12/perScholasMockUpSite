@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  border: solid black;
+  height: 22vh;
+}
+.logo {
+  border: solid blue;
+  height: 22vh;
+  width: 40%;
+}
+
+.tabs {
+  border: solid red;
+  height: 22vh;
+  width: 60%;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid purple;
+}
+
+.optionOne,
+.optionTwo {
+  border: solid lime;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .optionTwo {
+  border: solid lime;
+  width: 50%;
+  display: flex;
+  height: 200px;
+  justify-content: space-evenly;
+  align-self: baseline;
+} */
+
+.optionBox {
+  border: solid turquoise;
+  height: 45%;
+  width: 50%;
+}
+
+.header {
+  border: solid salmon;
+  height: 10px;
+  width: 100%;
+}
+
+.title {
+  border: solid blue;
+  height: 10px;
+  width: 100%;
+}
+
+.info {
+  border: solid blueviolet;
+  height: 10px;
+  width: 100%;
+}
+
+.button {
+  border: solid green;
+  height: 10px;
+  width: 100%;
+}
+
+.videoContainer {
+  border: solid black;
+  height: 50vh;
+}
+
+.videoTitle {
+  border: solid plum;
+  height: 10vh;
+}
+
+.video {
+  border: solid red;
+  height: 25vh;
+}
+
+.alumni {
+  display: flex;
+  border: solid pink;
+  height: 50px;
+}
+
+.alumniTitle {
+  border: solid blue;
+  height: 15px;
+}
+
+.alumniImg {
+  border: solid purple;
+  height: 15vh;
+  width: 20%;
+}
+
+.donate {
+  border: solid orange;
+  height: 100px;
+}
