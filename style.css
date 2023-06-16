@@ -80,8 +80,18 @@
   }
 
   .alumniTitle {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .arrow {
+    width: 3%;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
   }
 
   .alumniImg {
@@ -257,10 +267,19 @@
     align-items: center;
     margin-bottom: 45px;
   }
+  .arrow {
+    width: 3%;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
+  }
 
   .alumniTitle {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin-left: 30px;
+    margin-right: 30px;
   }
 
   .alumniImg {
@@ -416,8 +435,18 @@
   }
 
   .alumniTitle {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .arrow {
+    width: 3%;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
   }
 
   .alumniImg {
@@ -532,8 +561,19 @@ body {
   cursor: pointer;
 }
 
-.xImg {
-  width: 3%;
+.close {
+  width: 1%;
+  color: #f5f5f4;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.closeScrollbar {
+  display: none;
 }
 
 .optionOne {
