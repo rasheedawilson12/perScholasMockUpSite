@@ -1,5 +1,3 @@
-// Global Variables
-
 // Hide mobile navbar
 const mobileNavbar = () => {
   let mobileNavbar = document.querySelector(".mobileNavbar");
@@ -8,7 +6,7 @@ const mobileNavbar = () => {
 };
 
 // Change alumni logos
-const alumni = () => {
+const alumniRight = () => {
   let imgOne = document.querySelector(".imgOne");
   let imgTwo = document.querySelector(".imgTwo");
   let imgThree = document.querySelector(".imgThree");
@@ -37,9 +35,39 @@ const alumni = () => {
   );
 };
 
+// Change logos back
+const alumniLeft = () => {
+  let imgOne = document.querySelector(".imgOne");
+  let imgTwo = document.querySelector(".imgTwo");
+  let imgThree = document.querySelector(".imgThree");
+  let imgFour = document.querySelector(".imgFour");
+  let imgFive = document.querySelector(".imgFive");
+
+  imgOne.setAttribute(
+    "src",
+    "https://perscholas.org/wp-content/uploads/2023/05/logo-tek-500x135.png"
+  );
+  imgTwo.setAttribute(
+    "src",
+    "https://perscholas.org/wp-content/uploads/2023/05/Nagarro_logo_new.svg-500x125.png"
+  );
+  imgThree.setAttribute(
+    "src",
+    "https://perscholas.org/wp-content/uploads/2023/05/wells_fargo_logo_horiz-500x147.png"
+  );
+  imgFour.setAttribute(
+    "src",
+    "https://perscholas.org/wp-content/uploads/2023/05/download-1.png"
+  );
+  imgFive.setAttribute(
+    "src",
+    "https://perscholas.org/wp-content/uploads/2023/05/ppl_logo-500x56.png"
+  );
+};
+
 // HIde scroll bar
 const closeScroll = () => {
   let scrollbar = document.querySelector(".scrollbar");
 
-  scrollbar.classList.toggle("hide");
+  scrollbar.classList.add("closeScrollbar");
 };
